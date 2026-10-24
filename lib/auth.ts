@@ -1,6 +1,7 @@
 import { betterAuth, User } from "better-auth";
 import { prismaAdapter } from "better-auth/adapters/prisma";
 import prisma from "@/lib/prisma";
+import { headers } from "next/headers";
 
 
 
