@@ -52,7 +52,7 @@ export default function HomePage() {
         <div className="text-center max-w-3xl mx-auto space-y-6">
           <div className="inline-flex items-center gap-2 bg-zinc-900 border border-zinc-800 px-3 py-1 rounded-full text-xs font-medium text-zinc-400">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" /> 
-            Production Ready Kit Installed Check Now
+            New Production Ready Kit Installed 
           </div>
           
           <h1 className="text-4xl sm:text-6xl font-extrabold tracking-tight bg-gradient-to-b from-white via-zinc-200 to-zinc-500 bg-clip-text text-transparent leading-tight sm:leading-none">
