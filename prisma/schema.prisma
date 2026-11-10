@@ -23,6 +23,9 @@ model User {
   updatedAt     DateTime
   sessions      Session[]
   accounts      Account[]
+  stripeCustomerId   String?   @unique 
+  subscriptionStatus String?            
+  stripePriceId      String?      
 
   role Role @default(USER)
 

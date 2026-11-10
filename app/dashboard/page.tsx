@@ -41,7 +41,12 @@ export default async function DashboardPage() {
           </Link>
           
           </div>
-          <div className="px-3 py-2 hover:bg-zinc-800/50 hover:text-zinc-100 rounded-lg transition-colors cursor-pointer">Billing</div>
+          <div className="px-3 py-2 hover:bg-zinc-800/50 hover:text-zinc-100 rounded-lg transition-colors cursor-pointer">
+          <Link href = "/billing">
+          Billing
+          </Link>
+          
+          </div>
         </nav>
       </aside>
 
